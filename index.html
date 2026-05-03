@@ -3,121 +3,87 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CASH IA — Premium</title>
+<title>CASH IA</title>
 
 <style>
-:root {
-  --gold: #FFD700;
-  --black: #050505;
-  --dark: #111111;
-  --white: #f8f8f8;
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#050505;
+color:white;
+text-align:center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:20px;
+background:radial-gradient(circle,rgba(255,215,0,.12),transparent 70%);
 }
 
-body {
-  background: var(--black);
-  color: var(--white);
-  font-family: Arial, sans-serif;
+.badge{
+background:#FFD700;
+color:#000;
+padding:12px 24px;
+font-weight:bold;
+border-radius:4px;
+margin-bottom:20px;
 }
 
-.hero {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: radial-gradient(circle, rgba(255,215,0,.12), transparent 70%);
-  text-align: center;
-  padding: 40px 20px;
+h1{
+font-size:80px;
+margin:0;
 }
 
-.badge {
-  background: var(--gold);
-  color: var(--black);
-  padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 4px;
-  margin-bottom: 20px;
+.gold{
+color:#FFD700;
 }
 
-h1 {
-  font-size: 90px;
-  line-height: 1;
+p{
+max-width:650px;
+line-height:1.7;
+font-size:18px;
+margin:20px;
 }
 
-h1 span {
-  color: var(--gold);
+.btn{
+background:#FFD700;
+color:#000;
+padding:18px 35px;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
+display:inline-block;
 }
 
-p {
-  max-width: 700px;
-  margin: 20px auto;
-  line-height: 1.6;
-  font-size: 18px;
-}
-
-.btn {
-  background: var(--gold);
-  color: var(--black);
-  padding: 18px 40px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 20px;
-  display: inline-block;
-}
-
-.section {
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.card {
-  background: var(--dark);
-  max-width: 800px;
-  margin: 15px auto;
-  padding: 25px;
-  border-left: 4px solid var(--gold);
-}
-
-footer {
-  text-align: center;
-  padding: 40px;
-  color: #777;
+footer{
+padding:40px;
+color:#888;
 }
 </style>
 </head>
-
 <body>
 
 <section class="hero">
-  <div class="badge">MÉTODO PREMIUM</div>
+<div class="badge">MÉTODO PREMIUM</div>
 
-  <h1>CASH <span>COM IA</span></h1>
+<h1>CASH <span class="gold">COM IA</span></h1>
 
-  <p>
-    Descubra como usar Inteligência Artificial para criar uma renda extra,
-    mesmo começando do zero.
-  </p>
+<p>
+Aprenda a gerar renda extra usando inteligência artificial
+de forma simples, prática e direta.
+</p>
 
-  <a href="https://pay.kiwify.com.br/6aghpxM" class="btn">
-    QUERO COMEÇAR
-  </a>
-</section>
-
-<section class="section">
-  <div class="card">💰 Método validado</div>
-  <div class="card">📱 Funciona pelo celular</div>
-  <div class="card">⚡ Acesso imediato</div>
+<a class="btn" href="https://pay.kiwify.com.br/6aghpxM">
+QUERO COMEÇAR
+</a>
 </section>
 
 <footer>
-  CASH IA © 2026
+CASH IA © 2026
 </footer>
 
 </body>
