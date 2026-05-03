@@ -1,20 +1,6 @@
-<div style="
-max-width:900px;
-width:100%;
-margin-top:50px;
-padding:80px 20px;
-background:linear-gradient(135deg,#111,#050505);
-border:2px solid #FFD700;
-border-radius:12px;
-text-align:center;
-font-size:42px;
-font-weight:bold;
-color:#FFD700;
-box-shadow:0 0 40px rgba(255,215,0,.15);
-">
-CASH IA PREMIUM
-<br><br>
-<span style="font-size:22px;color:white;">
-Seu método para gerar renda com inteligência artificial
-</span>
-</div>
+<!DOCTYPE html>
+<html>
+<body style="background:black;color:gold;text-align:center;padding:100px;font-size:40px;">
+TESTE CASH IA
+</body>
+</html>
